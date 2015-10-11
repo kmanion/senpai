@@ -110,3 +110,11 @@ Senpai’s senpai noticed you. That’s not what you intended!
 Senpai noticed your laptop sticker of their face.
 Senpai shares your strong opinions about baked items.
 Senpai noticed that you have no idea what you're doing.
+Senpai endorsed you for a skill on LinkedIn that you don't actually have.
+Senpai noticed you, but was repulsed. (Sorry!)
+Senpai wrote you a letter of recommendation.
+Senpai passed on hiring you at their company.
+Senpai picked you last for their team.
+Senpai picked you first for their team.
+Senpai wants you to ask them out on a date.
+Senpai wants to ask you out on a date.
