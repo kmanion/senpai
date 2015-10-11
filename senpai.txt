@@ -16,7 +16,6 @@ Senpai has a restraining order against you.
 Senpai told you what a good friend you are.
 Senpai doesn’t like you “like that.”
 Senpai noticed you noticing them.
-Senpai noticed you!
 Senpai died, and their family would prefer you not come to the funeral.
 Senpai only hangs out with you for your significant other.
 Senpai collected a referral bonus because of you.
@@ -120,3 +119,4 @@ Senpai wants you to ask them out on a date.
 Senpai wants to ask you out on a date.
 Senpai is taking a break from social media.
 Senpai noticed you, but could notice you more. Keep trying!
+Senpai was biking too slowly, so you had to pass them, and then your bicycle fell apart because you shifted into a gear you hadn't used in ages. Senpai gave you an odd look when they biked by you.
