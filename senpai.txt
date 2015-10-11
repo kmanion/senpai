@@ -118,3 +118,5 @@ Senpai picked you last for their team.
 Senpai picked you first for their team.
 Senpai wants you to ask them out on a date.
 Senpai wants to ask you out on a date.
+Senpai is taking a break from social media.
+Senpai noticed you, but could notice you more. Keep trying!

@@ -22,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/kmanion/senpai/issues"
   },
-  "homepage": "https://github.com/kmanion/senpai#readme"
+  "homepage": "https://github.com/kmanion/senpai#readme",
+  "dependencies": {
+    "fs": "0.0.2",
+    "hapi": "^10.4.1"
+  }
 }
