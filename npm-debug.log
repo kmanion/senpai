@@ -1,0 +1,95 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@3.3.4
+3 info using node@v4.0.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/KManion/senpai',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/KManion/.npm/senpai/1.0.0/package.tgz not in flight; packing
+9 info lifecycle senpai@1.0.0~prepublish: senpai@1.0.0
+10 silly lifecycle senpai@1.0.0~prepublish: no script for prepublish, continuing
+11 verbose tar pack [ '/Users/KManion/.npm/senpai/1.0.0/package.tgz',
+11 verbose tar pack   '/Users/KManion/senpai' ]
+12 verbose tarball /Users/KManion/.npm/senpai/1.0.0/package.tgz
+13 verbose folder /Users/KManion/senpai
+14 verbose addLocalTarball adding from inside cache /Users/KManion/.npm/senpai/1.0.0/package.tgz
+15 silly cache afterAdd senpai@1.0.0
+16 verbose afterAdd /Users/KManion/.npm/senpai/1.0.0/package/package.json not in flight; writing
+17 verbose afterAdd /Users/KManion/.npm/senpai/1.0.0/package/package.json written
+18 silly publish { name: 'senpai',
+18 silly publish   version: '1.0.0',
+18 silly publish   description: 'A list of ways senpai may or may not notice you.',
+18 silly publish   main: 'index.js',
+18 silly publish   scripts: { test: 'node test.js', start: 'node server.js' },
+18 silly publish   repository:
+18 silly publish    { type: 'git',
+18 silly publish      url: 'git+https://github.com/kmanion/senpai.git' },
+18 silly publish   keywords: [ 'notice', 'senpai', 'noticed', 'you' ],
+18 silly publish   author: { name: 'Kiera Manion-Fischer' },
+18 silly publish   license: 'GPL-2.0',
+18 silly publish   bugs: { url: 'https://github.com/kmanion/senpai/issues' },
+18 silly publish   homepage: 'https://github.com/kmanion/senpai#readme',
+18 silly publish   dependencies: { fs: '0.0.2', hapi: '^10.4.1' },
+18 silly publish   readme: '# senpai\nA list of ways senpai may or may not notice you.\n\n### What is this, anyway?\nThis is a passion project by Kiera Manion-Fischer. She needed to come up with a creative way to get senpai to notice her, so she came up with this list of possible ways senpai might. Version 1.0.0 is a text-based list, but she hopes it will soon form the basis of a cute little fortune cookie website.\n\n### Who is senpai, and why do you want them to notice you?\n"[Senpai](https://en.wikipedia.org/wiki/Senpai_and_k%C5%8Dhai#Senpai.2C_k.C5.8Dhai_and_gakusei)" is a Japanese honorific term meaning senior, somewhat similar to the word "mentor" in the West, but with a less strong relationship implied. [KnowYourMeme](http://knowyourmeme.com/memes/i-hope-senpai-will-notice-me) has a pretty good explanation of how the senpai meme got started.\n\n### You didn\'t really answer the question, Kiera\n:blush:\n\n### How to contribute\n* How has your senpai noticed or failed to notice you? Add a pull request to the senpai.txt file.\n* Please avoid gendered language. For the purpose of this project, senpai doesn\'t have a specific gender. Senpai could be any gender.\n',
+18 silly publish   readmeFilename: 'README.md',
+18 silly publish   gitHead: '3fa0363625e1abc921dc750b0f01a891623208dd',
+18 silly publish   _id: 'senpai@1.0.0',
+18 silly publish   _shasum: '8cb113e70ef64338023c19e2876b98816b03d3d3',
+18 silly publish   _from: '.' }
+19 verbose getPublishConfig undefined
+20 silly mapToRegistry name senpai
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/senpai
+24 verbose publish registryBase https://registry.npmjs.org/
+25 silly publish uploading /Users/KManion/.npm/senpai/1.0.0/package.tgz
+26 verbose request uri https://registry.npmjs.org/senpai
+27 verbose request sending authorization for write operation
+28 info attempt registry request try #1 at 10:11:11 PM
+29 verbose request using bearer token for auth
+30 verbose request id feb8ca757bd3dbdd
+31 http request PUT https://registry.npmjs.org/senpai
+32 http 403 https://registry.npmjs.org/senpai
+33 verbose headers { 'content-type': 'application/json',
+33 verbose headers   'cache-control': 'max-age=60',
+33 verbose headers   'content-length': '98',
+33 verbose headers   'accept-ranges': 'bytes',
+33 verbose headers   date: 'Tue, 13 Oct 2015 05:11:12 GMT',
+33 verbose headers   via: '1.1 varnish',
+33 verbose headers   connection: 'keep-alive',
+33 verbose headers   'x-served-by': 'cache-lax1421-LAX',
+33 verbose headers   'x-cache': 'MISS',
+33 verbose headers   'x-cache-hits': '0',
+33 verbose headers   'x-timer': 'S1444713071.926555,VS0,VE139' }
+34 verbose request invalidating /Users/KManion/.npm/registry.npmjs.org/senpai on PUT
+35 error publish Failed PUT 403
+36 verbose stack Error: You do not have permission to publish 'senpai'. Are you logged in as the correct user? : senpai
+36 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+36 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+36 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+36 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:198:22)
+36 verbose stack     at emitTwo (events.js:87:13)
+36 verbose stack     at Request.emit (events.js:172:7)
+36 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1063:14)
+36 verbose stack     at emitOne (events.js:82:20)
+36 verbose stack     at Request.emit (events.js:169:7)
+36 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1009:12)
+37 verbose statusCode 403
+38 verbose pkgid senpai
+39 verbose cwd /Users/KManion/senpai
+40 error Darwin 14.5.0
+41 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+42 error node v4.0.0
+43 error npm  v3.3.4
+44 error code E403
+45 error You do not have permission to publish 'senpai'. Are you logged in as the correct user? : senpai
+46 error If you need help, you may report this error at:
+46 error     <https://github.com/npm/npm/issues>
+47 verbose exit [ 1, true ]
